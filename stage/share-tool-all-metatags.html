@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>TEST: Share Tool: Primary Meta tags</title>
+    <meta name="title" content="TEST: Share Primary Tool: Meta tags" />
+    <meta name="description" content="TEST: Primary Meta tags Description" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="TEST: og:title - Metatag Title" />
+    <meta
+      property="og:description"
+      content="TEST: og:description - Metatag Description"
+    />
+    <meta
+      property="og:image"
+      content="https://www.computerhope.com/jargon/m/meta-tags.jpg"
+    />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="314" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://twitter.com/" />
+    <meta
+      property="twitter:title"
+      content="TEST: twitter:title - Twitter Metatag Title"
+    />
+    <meta
+      property="twitter:description"
+      content="TEST: twitter:description - Twitter Metatag Description"
+    />
+    <meta
+      name="twitter:image"
+      content="https://cdn2.wpbeginner.com/wp-content/uploads/2015/10/twittecardsforwp.jpg"
+    />
+  </head>
+  <body>
+    <h1>TEST: Share Tool with all Metatag types</h1>
+    <h2>User: id.denfacebook@gmail.com</h2>
+    <p>Primary Metatags; Open Graph Metatags and Twitter Metatags</p>
+    <script>
+      (function (d, s, id) {
+        var js,
+          yjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src =
+          "https://test-yawave.com/sdk/init?appId=41cbb8cb-c757-4af4-b8d4-51f46af59ad9&publication=71f75176-bccb-4614-9ea8-afcb95684973&lang=en";
+        yjs.parentNode.insertBefore(js, yjs);
+      })(document, "script", "yawave-jssdk");
+    </script>
+
+    <button
+      onclick="YawaveSDK.handleButtonClick(this)"
+      data-yawave-tool="share"
+      data-yawave-id="eef63ed3-707b-47c8-962d-b75a23f5d60b"
+      data-yawave-type="button"
+      data-yawave-journey-id="5ee07a44c513c922ce7d531a"
+      data-yawave-touchpoint-id="5ee07a4bc513c922ce7d531b"
+      data-yawave-share-color="#969090"
+      data-yawave-landing-url="https://id-dan.github.io/stage/share-tool-metatags.html"
+      data-yawave-link-button=""
+      data-yawave-show-poweredby="1"
+      data-yawave-referral-url="https://id-dan.github.io/stage/share-tool-metatags.html"
+      data-yawave-show-motivation="1"
+      data-yawave-publication="71f75176-bccb-4614-9ea8-afcb95684973"
+      data-yawave-clean-query="1"
+    >
+      Share
+    </button>
+  </body>
+</html>
