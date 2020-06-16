@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PROD: Share Tool: Publication Meta tags</title>
+  </head>
+  <body>
+    <h1>PROD: Share Tool only with Publication Metatags</h1>
+    <h2>User: id.denfacebook@gmail.com</h2>
+    <script>
+      (function (d, s, id) {
+        var js,
+          yjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src =
+          "https://yawave.com/sdk/init?appId=a4ca897a-e7c1-451e-a952-2d48ec111c1c&publication=8d042572-c0aa-4388-a19f-0ffd4cea0ae1&lang=en";
+        yjs.parentNode.insertBefore(js, yjs);
+      })(document, "script", "yawave-jssdk");
+    </script>
+    <button
+      onclick="YawaveSDK.handleButtonClick(this)"
+      data-yawave-tool="share"
+      data-yawave-id="eef63ed3-707b-47c8-962d-b75a23f5d60b"
+      data-yawave-type="button"
+      data-yawave-journey-id="5ec4c39b4e439b20e64d91bc"
+      data-yawave-touchpoint-id=""
+      data-yawave-share-color="#969090"
+      data-yawave-landing-url="https://metatags.io/"
+      data-yawave-link-button=""
+      data-yawave-show-poweredby="1"
+      data-yawave-referral-url="https://metatags.io/"
+      data-yawave-show-motivation="1"
+      data-yawave-publication="8d042572-c0aa-4388-a19f-0ffd4cea0ae1"
+      data-yawave-clean-query="1"
+    >
+      Share
+    </button>
+  </body>
+</html>
