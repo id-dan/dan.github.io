@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="../override-metadata.js"></script>
+    <script>
+      var link = document.createElement("meta");
+
+      link.setAttribute("property", "og:title");
+      link.content = "Override OG Title Metadata";
+
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
